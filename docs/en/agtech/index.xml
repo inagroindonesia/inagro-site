@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>agtech on Inagro Indonesia</title>
+    <link>http://www.inagroindonesia.com/agtech/</link>
+    <description>Recent content in agtech on Inagro Indonesia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 May 2017 15:39:20 +0700</lastBuildDate>
+    
+	<atom:link href="http://www.inagroindonesia.com/agtech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

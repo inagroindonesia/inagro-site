@@ -1,0 +1,13 @@
+baseurl = "http://www.inagroindonesia.com"
+languageCode = "en-us"
+title = "Inagro Indonesia"
+canonifyUrls = "true"
+theme = "landing-page-hugo"
+publishDir = "docs/en"
+googleAnalytics = "UA-98287421-1"
+
+
+[params]
+    description = "Changing the World through Education"
+    custom_css = ["css/local.css"]
+    locale = "en-US"

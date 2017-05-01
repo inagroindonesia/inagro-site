@@ -1,13 +1,20 @@
-baseurl = "http://www.inagroindonesia.com/en"
+baseurl = "http://www.inagroindonesia.com/"
 languageCode = "id-IND"
 title = "Inagro Indonesia"
 canonifyUrls = "true"
 theme = "landing-page-hugo"
 publishDir = "docs"
+contentDir = "content_id"
+
 googleAnalytics = "UA-98287421-1"
+DefaultContentLanguage = "id"
+
+
 
 
 [params]
     description = "Changing the World through Education"
     custom_css = ["css/local.css"]
     locale = "id-IND"
+    HomePage = "index.html"
+    nextHomePage = "index_en.html"

@@ -197,7 +197,7 @@ th {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -916,7 +916,7 @@ a {
 a:hover,
 a:focus {
   color: #2a6496;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -3963,8 +3963,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 33px;
+    padding-bottom: 27px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;

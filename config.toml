@@ -7,12 +7,11 @@ publishDir = "docs"
 contentDir = "content_id"
 
 googleAnalytics = "UA-98287421-1"
-DefaultContentLanguage = "id"
 
 [taxonomies]
-tag = "tags"
-category = "categories"
-series = "series"
+  tag = "tags"
+  category = "categories"
+  series = "series"
 
 
 [params]

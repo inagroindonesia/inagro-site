@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>http://www.inagroindonesia.com/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.inagroindonesia.com/tags/</loc>
     <priority>0</priority>
   </url>

@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://inagroindonesia.github.io/inagro-site/"
 languageCode = "id-IND"
 title = "Inagro Indonesia"
 canonifyUrls = "true"

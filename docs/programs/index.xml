@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programs on Inagro Indonesia</title>
-    <link>/programs/</link>
+    <link>https://inagroindonesia.github.io/inagro-site/programs/</link>
     <description>Recent content in Programs on Inagro Indonesia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-IND</language>
     <lastBuildDate>Fri, 28 Apr 2017 17:42:59 +0700</lastBuildDate>
     
-	<atom:link href="/programs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://inagroindonesia.github.io/inagro-site/programs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Programs</title>
-      <link>/programs/programs/</link>
+      <link>https://inagroindonesia.github.io/inagro-site/programs/programs/</link>
       <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
       
-      <guid>/programs/programs/</guid>
+      <guid>https://inagroindonesia.github.io/inagro-site/programs/programs/</guid>
       <description>We Have All of these amazing programs.</description>
     </item>
     

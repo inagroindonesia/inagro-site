@@ -1,4 +1,4 @@
-baseurl = "http://www.inagroindonesia.com/"
+baseurl = "/"
 languageCode = "id-IND"
 title = "Inagro Indonesia"
 canonifyUrls = "true"

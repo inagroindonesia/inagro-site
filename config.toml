@@ -1,4 +1,4 @@
-baseurl = "http://www.inagroindonesia.com/"
+baseurl = "https://inagroindonesia.github.io/inagro-site/"
 languageCode = "id-IND"
 title = "Inagro Indonesia"
 canonifyUrls = "true"
@@ -7,12 +7,11 @@ publishDir = "docs"
 contentDir = "content_id"
 
 googleAnalytics = "UA-98287421-1"
-DefaultContentLanguage = "id"
 
 [taxonomies]
-tag = "tags"
-category = "categories"
-series = "series"
+  tag = "tags"
+  category = "categories"
+  series = "series"
 
 
 [params]

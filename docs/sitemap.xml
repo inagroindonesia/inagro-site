@@ -2,58 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.inagroindonesia.com/about/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/about/</loc>
     <lastmod>2017-05-01T15:42:59+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.inagroindonesia.com/agtech/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/agtech/</loc>
     <lastmod>2017-05-01T15:39:20+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.inagroindonesia.com/facility/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/facility/</loc>
     <lastmod>2017-05-01T15:13:38+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.inagroindonesia.com/programs/programs/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/programs/programs/</loc>
     <lastmod>2017-04-28T17:42:59+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.inagroindonesia.com/about/about/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/about/about/</loc>
     <lastmod>2017-04-28T15:42:59+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.inagroindonesia.com/categories/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.inagroindonesia.com/contact/contact/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/contact/contact/</loc>
   </url>
   
   <url>
-    <loc>http://www.inagroindonesia.com/contact/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/contact/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.inagroindonesia.com/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/</loc>
     <lastmod>2017-05-01T15:13:38+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.inagroindonesia.com/programs/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/programs/</loc>
     <lastmod>2017-04-28T17:42:59+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.inagroindonesia.com/tags/</loc>
+    <loc>https://inagroindonesia.github.io/inagro-site/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://inagroindonesia.github.io/inagro-site/tags/</loc>
     <priority>0</priority>
   </url>
   

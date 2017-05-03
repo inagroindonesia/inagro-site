@@ -1,4 +1,3 @@
-<!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -9,25 +8,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="page-scroll navbar-brand" href="#intro">{{ .Site.Title }}</a>
+            <a class="page-scroll navbar-brand" href="#intro"><img src="/img/LogoInagrowhite.png" style="height:50px;"></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-           {{ if .Site.Menus.main }}
             <ul class="nav navbar-nav navbar-right">
-              {{ range .Site.Menus.main }}
-              <li><a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ .Name }} page">
-              {{ .Name }}
-              </a>
-            </li>
                 <li>
-                    <a class="" href="">Programs & Services</a>
+                    <a class="page-scroll" href="#programs">Programs</a>
                 </li>
                 <li>
-                <a class="" href="">Facility</a>
+                <a class="page-scroll" href="#facility">Facility</a>
                 </li>
                 <li>
-                <a class="" href="" title="">Agtech</a>
+                <a class="page-scroll" href="#agtech" title="">Agtech</a>
                 </li>
                 <!-- This can be part of the facilities li>
                 <a class="" href="aquaculture.html">AquaCulture</a>
@@ -39,11 +32,11 @@
                 <a class="" href="plantation.html">Plantation</a>
               </li-->
                 <li>
-                    <a class="" href="">About</a>
+                    <a class="page-scroll" href="#about">About</a>
                 </li>
             {{ if isset .Site.Params "social" }}
-              < <li>
-                    <a class="" href="">Contact</a>
+               <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
                 </li>
                 {{ end }}
             </ul>

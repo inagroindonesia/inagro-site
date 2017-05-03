@@ -5,6 +5,7 @@ canonifyUrls = "true"
 theme = "landing-page-hugo"
 publishDir = "docs"
 contentDir = "content_en"
+menu = "main"
 googleAnalytics = "UA-98287421-1"
 
 [taxonomies]

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>facility on Inagro Indonesia</title>
+    <link>/facility/</link>
+    <description>Recent content in facility on Inagro Indonesia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 May 2017 15:42:59 +0700</lastBuildDate>
+    
+	<atom:link href="/facility/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>facility</title>
+      <link>/facility/facility/</link>
+      <pubDate>Mon, 01 May 2017 15:13:38 +0700</pubDate>
+      
+      <guid>/facility/facility/</guid>
+      <description>Facility at Inagro</description>
+    </item>
+    
+    <item>
+      <title>Animals</title>
+      <link>/facility/animals/</link>
+      <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
+      
+      <guid>/facility/animals/</guid>
+      <description>We Have All of these amazing programs.</description>
+    </item>
+    
+    <item>
+      <title>Aquaculture</title>
+      <link>/facility/aquaculture/</link>
+      <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
+      
+      <guid>/facility/aquaculture/</guid>
+      <description>We Have All of these amazing programs.</description>
+    </item>
+    
+    <item>
+      <title>Fruit Plantation</title>
+      <link>/facility/fruitplantation/</link>
+      <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
+      
+      <guid>/facility/fruitplantation/</guid>
+      <description>We Have All of these amazing programs.</description>
+    </item>
+    
+  </channel>
+</rss>

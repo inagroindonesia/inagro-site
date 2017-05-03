@@ -1,0 +1,31 @@
+baseurl = "https://inagroindonesia.github.io/inagro-site/"
+languageCode = "id-IND"
+title = "Inagro Indonesia"
+canonifyUrls = "true"
+theme = "landing-page-hugo"
+publishDir = "docs"
+contentDir = "content_id"
+
+googleAnalytics = "UA-98287421-1"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+
+[params]
+    description = "Changing the World through Education"
+    custom_css = ["css/local.css"]
+    locale = "id-IND"
+    HomePage = "index.html"
+    nextHomePage = "index_en.html"
+
+[[params.social]]
+        title = "email"
+        icon = "envelope-o"
+        url = "mailto:marketing@inagroindonesia.com"
+[[params.social]]
+        title = "instagram"
+        icon = "instagram"
+        url = "https://www.instagram.com/inagroindonesia/"

@@ -21,7 +21,7 @@
                 <a class="" href="#facility">Facility</a>
                 </li>
                 <li>
-                <a class="" href="/agtech" title="">Agtech</a>
+                <a class="" href="#agtech" title="">Agtech</a>
                 </li>
                 <!-- This can be part of the facilities li>
                 <a class="" href="aquaculture.html">AquaCulture</a>
@@ -36,7 +36,7 @@
                     <a class="page-scroll" href="#about">About</a>
                 </li>
             {{ if isset .Site.Params "social" }}
-              < <li>
+               <li>
                     <a class="page-scroll" href="#contact">Contact</a>
                 </li>
                 {{ end }}
@@ -58,12 +58,12 @@
 			<div class="intro-message">
 			    <h1>{{ .Site.Title }}</h1>
 			    <h3>{{ .Site.Params.description }}</h3>
-			    <hr class="intro-divider">
-			    {{ if isset .Site.Params "social" }}
+<!--			    <hr class="intro-divider">
+		  {{ if isset .Site.Params "social" }}
 			    <ul class="list-inline intro-social-buttons">
 				        {{ partial "social.html" . }}
 			    </ul>
-			    {{ end }}
+			    {{ end }} -->
 			</div>
 		    </div>
 		</div>

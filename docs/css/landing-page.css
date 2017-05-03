@@ -21,7 +21,10 @@ h6 {
     font-weight: 600;
     letter-spacing: 0.09em;
 }
-
+body {font-weight: 400;}
+h1 {color:#488247;}
+a {color:#F2C14E;}
+a:hover {color:#488247;}
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -32,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/homepage3.jpg) no-repeat center center;
+    background: url(../img/homepage2.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -46,6 +49,7 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+    color: #ffffff;
 }
 
 .intro-divider {
@@ -186,6 +190,7 @@ p.copyright {
   background-color: rgba(242,193,78,0.75);
   overflow: hidden;
   max-height: 30%;
+  transition: max-height 0.6s ease;
 }
 @media (max-width:768px) {
   .highlight .hoverText {max-height: 20%;}
@@ -208,7 +213,6 @@ p.copyright {
 	display:inline-block;
 	cursor:pointer;
 	color:#FFFCF2;
-	font-family:Arial;
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
@@ -233,3 +237,18 @@ section#about {
 }
 
 section:not(#intro) {padding: 2em 0;}
+
+#agtech {
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/tissueculture.png) no-repeat left top;
+  background-size: 50%;
+  background-color: #A1CF6B;
+}
+/* Font spacing fix */
+h4 {font-variant-ligatures: none;}
+
+.address {
+  font-weight: 600;
+  font-size: 15px;
+}

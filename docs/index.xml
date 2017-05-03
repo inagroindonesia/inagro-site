@@ -2,48 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inagro Indonesia</title>
-    <link>https://inagroindonesia.github.io/inagro-site/</link>
+    <link>/</link>
     <description>Recent content on Inagro Indonesia</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-IND</language>
-    <lastBuildDate>Mon, 01 May 2017 15:13:38 +0700</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 May 2017 17:42:59 +0700</lastBuildDate>
     
-	<atom:link href="https://inagroindonesia.github.io/inagro-site/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>AgTech</title>
+      <link>/agtech/agtech/</link>
+      <pubDate>Tue, 02 May 2017 17:42:59 +0700</pubDate>
+      
+      <guid>/agtech/agtech/</guid>
+      <description> Inagro Inagro is a space for AgTech / Agriculture Technology StartUps to collaborate and brainstorm ideas to solve the real world problems. </description>
+    </item>
+    
+    <item>
       <title>facility</title>
-      <link>https://inagroindonesia.github.io/inagro-site/facility/</link>
+      <link>/facility/facility/</link>
       <pubDate>Mon, 01 May 2017 15:13:38 +0700</pubDate>
       
-      <guid>https://inagroindonesia.github.io/inagro-site/facility/</guid>
+      <guid>/facility/facility/</guid>
       <description>Facility at Inagro</description>
     </item>
     
     <item>
-      <title>Programs</title>
-      <link>https://inagroindonesia.github.io/inagro-site/programs/programs/</link>
+      <title>Animals</title>
+      <link>/facility/animals/</link>
       <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
       
-      <guid>https://inagroindonesia.github.io/inagro-site/programs/programs/</guid>
+      <guid>/facility/animals/</guid>
+      <description>We Have All of these amazing programs.</description>
+    </item>
+    
+    <item>
+      <title>Aquaculture</title>
+      <link>/facility/aquaculture/</link>
+      <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
+      
+      <guid>/facility/aquaculture/</guid>
+      <description>We Have All of these amazing programs.</description>
+    </item>
+    
+    <item>
+      <title>Fruit Plantation</title>
+      <link>/facility/fruitplantation/</link>
+      <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
+      
+      <guid>/facility/fruitplantation/</guid>
+      <description>We Have All of these amazing programs.</description>
+    </item>
+    
+    <item>
+      <title>Programs</title>
+      <link>/programs/programs/</link>
+      <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
+      
+      <guid>/programs/programs/</guid>
       <description>We Have All of these amazing programs.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://inagroindonesia.github.io/inagro-site/about/about/</link>
+      <link>/about/about/</link>
       <pubDate>Fri, 28 Apr 2017 15:42:59 +0700</pubDate>
       
-      <guid>https://inagroindonesia.github.io/inagro-site/about/about/</guid>
-      <description>This is where About Us content will reside.</description>
+      <guid>/about/about/</guid>
+      <description>PT. Intidaya Agrolestari (INAGRO) is a company engaged in Agroeduwisat where it’s activities are focused on providing educational facilities and agriculture, animal husbandry, and fishery tours that are fun and educational. The company stands on of 76 ha located in Cibeuteung Udik Village, Ciseeng District, Bogor Regency. There are various excellent facilities, such as Tissue Culture Laboratory, Mikoriza Laboratory, Green House, compost management, fish cultivation (Catfish, Patin, and Zidat), Buffalo and cow farm, fruit addition, INAGRO also provides facilities such as auditorium hall and hall pendopo, training center, meeting room, sports facilities, fishing place, lake, training camp, aviary, sawah outbond area.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://inagroindonesia.github.io/inagro-site/contact/contact/</link>
+      <link>/contact/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://inagroindonesia.github.io/inagro-site/contact/contact/</guid>
+      <guid>/contact/contact/</guid>
       <description>Please contact me here.</description>
     </item>
     

@@ -1,0 +1,16 @@
+<!-- About Section -->
+<section id="agtech">
+{{ range where .Data.Pages "Section" "agtech" | first 1 }}
+	<div class="row">
+		<div class="col-lg-5 col-sm-6">
+		</div>
+		<div class="col-lg-5 col-lg-offset-2 col-sm-6">
+			<hr class="section-heading-spacer" style="float:none; border-color:#F2C14E;">
+			<div class="clearfix"></div>
+			<h2 class="section-heading">{{ .Title }}</h2>
+			{{ .Content }}
+		</div>
+		{{ end }}
+	</div>
+
+</section>

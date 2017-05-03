@@ -2,14 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>agtech on Inagro Indonesia</title>
-    <link>https://inagroindonesia.github.io/inagro-site/agtech/</link>
+    <link>/agtech/</link>
     <description>Recent content in agtech on Inagro Indonesia</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-IND</language>
+    <language>en-us</language>
     <lastBuildDate>Mon, 01 May 2017 15:39:20 +0700</lastBuildDate>
     
-	<atom:link href="https://inagroindonesia.github.io/inagro-site/agtech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/agtech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AgTech</title>
+      <link>/agtech/agtech/</link>
+      <pubDate>Tue, 02 May 2017 17:42:59 +0700</pubDate>
+      
+      <guid>/agtech/agtech/</guid>
+      <description> Inagro Inagro is a space for AgTech / Agriculture Technology StartUps to collaborate and brainstorm ideas to solve the real world problems. </description>
+    </item>
     
   </channel>
 </rss>

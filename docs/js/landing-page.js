@@ -29,3 +29,11 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+//Highlight section slide
+$(document).ready(function() {
+  $('#media').carousel({
+    pause: true,
+    interval: false,
+  });
+});

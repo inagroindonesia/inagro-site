@@ -2,13 +2,17 @@
 <!-- Header Content with Navigation -->
 {{partial "sitenav.html" . }}
 <section class="container content-section">
+{{ with .Params.img }}
 	<div class="row">
-		<div class="col-12">
+			{{end}}
+<div class="row subpage">
+		<div class="col-md-12">
 			<h1>{{ .Title }}</h1>
 			<br/>
 			{{ .Content }}
 			<br/>
 		</div>
+	</div>
 	</div>
 </section>
 <!-- Footer -->

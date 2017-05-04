@@ -7,11 +7,6 @@
   </url>
   
   <url>
-    <loc>https://inagroindonesia.github.io/inagro-site/about/</loc>
-    <lastmod>2017-05-01T15:42:59+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://inagroindonesia.github.io/inagro-site/facility/</loc>
     <lastmod>2017-05-01T15:42:59+07:00</lastmod>
   </url>
@@ -49,6 +44,12 @@
   <url>
     <loc>https://inagroindonesia.github.io/inagro-site/about/about/</loc>
     <lastmod>2017-04-28T15:42:59+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://inagroindonesia.github.io/inagro-site/about/</loc>
+    <lastmod>2017-04-28T15:42:59+07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

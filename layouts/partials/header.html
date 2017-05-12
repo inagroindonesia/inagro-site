@@ -68,28 +68,35 @@
       <!-- Link Swiper's CSS -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
 
-      <!-- Swiper -->
+      <!-- Swiper Content-->
+
+      {{ range (where .Data.Pages "Section" "Slider") }}
+
       <div class="swiper-container">
         <div class="swiper-wrapper">
 			<div id="slide_one" class="swiper-slide">
 		    <div id="lab_video_text_overlay">
-			    <h2>{{ .Site.Title }}</h2>
-			    <h3>{{ .Site.Params.description }}</h3>
+          <h2>{{ .Title }}</h2>
+			    <h3>{{ .Content }}</h3>
 			</div>
+      {{ with .Params.img }}
             <!-- VIDEO -->
-            <img class="img-responsive avatar" src="/{{ .Site.Params.slider1 }}" width="100%">
+            <img class="img-responsive avatar" src="img/{{ . }}" width="100%">
             <!-- END VIDEO -->
           </div>
+          {{ end }}
 
 			<div id="slide_two" class="swiper-slide">
 			<div id="lab_video_text_overlay">
-			    <h2>{{ .Site.Title }}</h2>
-			    <h3>{{ .Site.Params.description }}</h3>
+			    <h2>{{ .Title  }}</h2>
+			    <h3>{{ .Content }}</h3>
 			</div>
+      {{ with .Params.img }}
 					<!-- end #lab_overlay -->
-			<img class="img-responsive avatar" src="/{{ .Site.Params.slider2 }}" width="100%">
-			</div>
-
+			<img class="img-responsive avatar" src="img/{{ . }}" width="100%">
+			</div >
+      {{ end }}
+{{ end }}
 			<div id="slide_three" class="swiper-slide">
 			<div id="lab_video_text_overlay">
 			    <h2>{{ .Site.Title }}</h2>
@@ -99,7 +106,7 @@
             <img class="img-responsive avatar" src="/{{ .Site.Params.slider3 }}" width="100%">
             <!-- END VIDEO -->
 			</div>
-        </div>
+    </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
         <!-- Add Arrows -->

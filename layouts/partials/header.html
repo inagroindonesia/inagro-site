@@ -47,30 +47,75 @@
     <!-- /.container -->
 </nav>
 
-<section id="intro">
-	<!-- Header -->
-	<div class="intro-header">
+<!-- Pull slider custome CSS Slider Start -->
+{{ range .Site.Params.custom_css_slider }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+{{ end }}
 
-	    <div class="container">
 
-		<div class="row">
-		    <div class="col-lg-12">
-			<div class="intro-message">
-			    <h1>{{ .Site.Title }}</h1>
-			    <h3>{{ .Site.Params.description }}</h3>
-<!--			    <hr class="intro-divider">
-		  {{ if isset .Site.Params "social" }}
-			    <ul class="list-inline intro-social-buttons">
-				        {{ partial "social.html" . }}
-			    </ul>
-			    {{ end }} -->
+<!-- Duplicate? {{ range .Site.Params.custom_css_slider }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+{{ end }} -->
+<!-- Slider End -->
+
+<section id="lab_video_slider">
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+      <!-- Link Swiper's CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+
+      <!-- Swiper Content-->
+
+      {{ range (where .Data.Pages "Section" "Slider") }}
+
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+			<div id="slide_one" class="swiper-slide">
+		    <div id="lab_video_text_overlay">
+          <h2>{{ .Title }}</h2>
+			    <h3>{{ .Content }}</h3>
 			</div>
-		    </div>
-		</div>
+      {{ with .Params.img }}
+            <!-- VIDEO -->
+            <img class="img-responsive avatar" src="img/{{ . }}" width="100%">
+            <!-- END VIDEO -->
+          </div>
+          {{ end }}
 
-	    </div>
-	    <!-- /.container -->
-
-	</div>
-	<!-- /.intro-header -->
-</section>
+			<div id="slide_two" class="swiper-slide">
+			<div id="lab_video_text_overlay">
+			    <h2>{{ .Title  }}</h2>
+			    <h3>{{ .Content }}</h3>
+			</div>
+      {{ with .Params.img }}
+					<!-- end #lab_overlay -->
+			<img class="img-responsive avatar" src="img/{{ . }}" width="100%">
+			</div >
+      {{ end }}
+{{ end }}
+			<div id="slide_three" class="swiper-slide">
+			<div id="lab_video_text_overlay">
+			    <h2>{{ .Site.Title }}</h2>
+			    <h3>{{ .Site.Params.description }}</h3>
+			</div>
+             <!-- VIDEO -->
+            <img class="img-responsive avatar" src="/{{ .Site.Params.slider3 }}" width="100%">
+            <!-- END VIDEO -->
+			</div>
+    </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <!-- end .row -->
+  </div>
+  <!-- end .container-->
+  </div>
+  <!-- end #section -->

@@ -1,0 +1,16 @@
+{{ partial "head.html" . }}
+{{ partial "sitenav.html" . }}
+<section class="container content-section">
+{{ with .Params.img }}
+	<div class="row">
+			{{end}}
+<div class="row subpage">
+		<div class="col-md-12">
+      <h1 id="title">404- Oops Page not found. </h1>
+      <p> Please return to the <a href="{{ $.Site.BaseURL }}">homepage </a>. </p>
+		</div>
+	</div>
+	</div>
+</section>
+
+{{ partial "footer.html" . }}

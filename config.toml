@@ -19,6 +19,15 @@ googleAnalytics = "UA-98287421-1"
     locale = "en-US"
     HomePage = "index_en.html"
     nextHomePage = "index.html"
+	  slider1 = "img/homepage1.jpg"
+    slider2 = "img/homepage2.jpg"
+    slider3 = "img/homepage3.jpg"
+    slider4 = "img/homepage2.jpg"
+
+
+    custom_css_slider = ["css/slider.css"]
+
+
 
 
 [[params.social]]

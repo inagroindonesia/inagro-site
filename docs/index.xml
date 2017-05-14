@@ -6,10 +6,19 @@
     <description>Recent content on Inagro Indonesia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 May 2017 17:42:59 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 08 May 2017 15:42:59 +0700</lastBuildDate>
     
 	<atom:link href="https://inagroindonesia.github.io/inagro-site/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Slide2</title>
+      <link>https://inagroindonesia.github.io/inagro-site/slider/slider2/</link>
+      <pubDate>Mon, 08 May 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/slider/slider2/</guid>
+      <description>This is the description two.</description>
+    </item>
     
     <item>
       <title>AgTech</title>
@@ -82,6 +91,15 @@ Tissue culture is a technique of providing plants seeds in bulk and sustainable 
       
       <guid>https://inagroindonesia.github.io/inagro-site/about/about/</guid>
       <description>PT. Intidaya Agrolestari (INAGRO) is a company engaged in Agroeduwisata where it’s activities are focused on providing educational facilities and agriculture, animal husbandry, and fishery tours that are fun and educational. The company stands on of 76 ha located in Cibeuteung Udik Village, Ciseeng District, Bogor Regency. There are various excellent facilities, such as Tissue Culture Laboratory, Mikoriza Laboratory, Green House, compost management, fish cultivation (Catfish, Patin, and Zidat), Buffalo and cow farm, fruit addition, INAGRO also provides facilities such as auditorium hall and hall pendopo, training center, meeting room, sports facilities, fishing place, lake, training camp, aviary, sawah outbond area.</description>
+    </item>
+    
+    <item>
+      <title>Slide1</title>
+      <link>https://inagroindonesia.github.io/inagro-site/slider/slider1/</link>
+      <pubDate>Fri, 28 Apr 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/slider/slider1/</guid>
+      <description>This is the description.</description>
     </item>
     
     <item>

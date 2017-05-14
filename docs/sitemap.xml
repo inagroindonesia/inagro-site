@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://inagroindonesia.github.io/inagro-site/slider/slider2/</loc>
+    <lastmod>2017-05-08T15:42:59+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://inagroindonesia.github.io/inagro-site/agtech/agtech/</loc>
     <lastmod>2017-05-02T17:42:59+07:00</lastmod>
   </url>
@@ -52,6 +57,11 @@
   </url>
   
   <url>
+    <loc>https://inagroindonesia.github.io/inagro-site/slider/slider1/</loc>
+    <lastmod>2017-04-28T15:42:59+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://inagroindonesia.github.io/inagro-site/about/</loc>
     <lastmod>2017-04-28T15:42:59+07:00</lastmod>
     <priority>0</priority>
@@ -73,7 +83,7 @@
   
   <url>
     <loc>https://inagroindonesia.github.io/inagro-site/</loc>
-    <lastmod>2017-05-02T17:42:59+07:00</lastmod>
+    <lastmod>2017-05-08T15:42:59+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -85,6 +95,12 @@
   
   <url>
     <loc>https://inagroindonesia.github.io/inagro-site/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://inagroindonesia.github.io/inagro-site/slider/</loc>
+    <lastmod>2017-05-08T15:42:59+07:00</lastmod>
     <priority>0</priority>
   </url>
   

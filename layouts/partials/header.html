@@ -70,48 +70,32 @@
 
       <!-- Swiper Content-->
 
-      {{ range (where .Data.Pages "Section" "Slider") }}
-
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-			<div id="slide_one" class="swiper-slide">
-		    <div id="lab_video_text_overlay">
-          <h2>{{ .Title }}</h2>
-			    <h3>{{ .Content }}</h3>
-			</div>
-      {{ with .Params.img }}
-            <!-- VIDEO -->
-            <img class="img-responsive avatar" src="img/{{ . }}" width="100%">
-            <!-- END VIDEO -->
-          </div>
-          {{ end }}
-
-			<div id="slide_two" class="swiper-slide">
-			<div id="lab_video_text_overlay">
-			    <h2>{{ .Title  }}</h2>
-			    <h3>{{ .Content }}</h3>
-			</div>
-      {{ with .Params.img }}
-					<!-- end #lab_overlay -->
-			<img class="img-responsive avatar" src="img/{{ . }}" width="100%">
-			</div >
-      {{ end }}
-{{ end }}
-			<div id="slide_three" class="swiper-slide">
-			<div id="lab_video_text_overlay">
-			    <h2>{{ .Site.Title }}</h2>
-			    <h3>{{ .Site.Params.description }}</h3>
-			</div>
-             <!-- VIDEO -->
-            <img class="img-responsive avatar" src="/{{ .Site.Params.slider3 }}" width="100%">
-            <!-- END VIDEO -->
-			</div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+  {{ range (where .Data.Pages "Section" "Slider") }}
+  <div id="slide_one" class="swiper-slide">
+  <div id="lab_video_text_overlay">
+      <h2>{{ .Title }}</h2>
+      <h3>{{ .Content }}</h3>
     </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+      {{ with .Params.img }}
+                <!-- IMAGE -->
+                <img class="img-responsive avatar" src="img/{{ . }}" width="100%">
+                <!-- END IMAGE -->
+              </div>
+            {{ end }}
+          {{ with .Params.video }}
+              <!-- VIDEO -->
+              <video class="img-responsive avatar" src="img/{{ . }}" width="100%">
+              <!-- END IMAGE -->
+            </div>
+          {{ end }}
+          {{ end }}
       </div>
     </div>
     <!-- end .row -->

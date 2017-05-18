@@ -1,9 +1,9 @@
 ---
-date: '2017-04-28T15:42:59+07:00'
-Title: Slide1
+date: '2017-05-08T15:42:59+07:00'
+Title: Inagro Indonesia
 Draft: false
-img: "homepage1.jpg"
+img: "education.jpg"
 
 ---
 
-This is the description.
+Changing the world through Education

@@ -1,0 +1,9 @@
+---
+date: '2017-05-08T15:42:59+07:00'
+Title: Building Community
+Draft: true
+img: "inagrooverview.avi"
+
+---
+
+Creating Opportunities for Team Growth

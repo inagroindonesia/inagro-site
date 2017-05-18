@@ -49,7 +49,11 @@
 
 <!-- Pull slider custome CSS Slider Start -->
 {{ range .Site.Params.custom_css_slider }}
-    <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+
+<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+
 {{ end }}
 
 
@@ -64,9 +68,6 @@
 
     <div class="row">
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-
-      <!-- Link Swiper's CSS -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
 
       <!-- Swiper Content-->
 
@@ -87,14 +88,13 @@
                 <!-- IMAGE -->
                 <img class="img-responsive avatar" src="img/{{ . }}" width="100%">
                 <!-- END IMAGE -->
-              </div>
             {{ end }}
           {{ with .Params.video }}
               <!-- VIDEO -->
               <iframe class="img-responsive avatar" src="video/{{ . }}" width="100%"></iframe>
               <!-- END IMAGE -->
-            </div>
           {{ end }}
+        </div>
           {{ end }}
       </div>
     </div>
@@ -103,3 +103,4 @@
   <!-- end .container-->
   </div>
   <!-- end #section -->
+</section>

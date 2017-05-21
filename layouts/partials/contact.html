@@ -11,13 +11,15 @@
 
 			<div class="col-lg-6">
 			 <h3>Contact </h3>
-				<form>
+				<form id="contactForm" action="https://hooks.zapier.com/hooks/catch/2250565/9tdouz/" type="POST">
 					<p>Full Name:<br>
-					<input type="text" name="fullname"><br>
+					<input type="text" name="fullname" required><br>
 					Your Email: <br>
-					<input type="text" name="email"> <br>
+					<input type="text" name="email" required> <br>
+					Phone: <br>
+					<input type="text" name="phone"> <br>
 					Message: <br>
-					<input type="textfield" style="height:100px;"><br>
+					<input type="textfield" style="height:100px;" name="messsage" required><br>
 					<input type="submit" value="Submit"><br>
 				</p>
 				</form>

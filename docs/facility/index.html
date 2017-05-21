@@ -233,6 +233,28 @@ In the belief of Aluk To Dolo, or ancient Toraja religion, the &lsquo;solo sign&
 	});
 </script>
 
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+
+
+$('#myForm').submit(function(e){
+    e.preventDefault();
+    $.ajax({
+        url:'https://hooks.zapier.com/hooks/catch/2250565/9tdouz/',
+        type:'post',
+        data:$('#myForm').serialize(),
+        success:function(){
+          
+          window.location = "/thankyou.html";
+        }
+    });
+});
+
+</script>
+
 </body>
 </html>
 

@@ -124,9 +124,10 @@ body p {
 
 .contact {
     padding: 100px 0;
-    /* color: #f8f8f8; */
+    /* color: #f8f8f8;
     background: url(../img/contact-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #f8f8f8;
 }
 
 .contact h2 {
@@ -210,18 +211,19 @@ p.copyright {
 }
 .hlBtn {
 	background-color:#605f5e;
-	-moz-border-radius:11px;
-	-webkit-border-radius:11px;
-	border-radius:11px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
 	display:inline-block;
 	cursor:pointer;
 	color:#FFFCF2;
 	font-size:17px;
-	padding:16px 31px;
+	padding:0.8em 2em;
 	text-decoration:none;
 }
 .hlBtn:hover {
-	background-color:#A1CF6B;
+	background-color:#488247;
+  color: #fffcf2;
 }
 .hlBtn:active {
 	position:relative;
@@ -229,7 +231,8 @@ p.copyright {
 }
 .hlBtn a, .hlBtn a:hover {
   text-decoration: none;
-  color: #FFFCF2;}
+  color: #FFFCF2;
+}
 
 .highlight > img {
   width:100%;
@@ -257,6 +260,11 @@ h4 {font-variant-ligatures: none;}
 .address {
   font-weight: 600;
   font-size: 15px;
+}
+
+footer {
+    background: url(../img/footerbg.png) no-repeat right top;
+    background-size: 25%;
 }
 
 .lightgreen {color:#A1CF6B;}
@@ -327,3 +335,28 @@ ul.navbar-nav {
 /* Nav bar inner */
 .navbar-subpage {background-color: rgba(41,41,41,1);}
 .subpage {margin-top:120px;}
+
+/* Input Field Design */
+input, button, select, textarea {
+border-radius: 10px;
+border-style: solid;
+border-color: #e7e7e7;
+width: 80%;
+padding: 0.5em;
+margin: 0.5em 0;
+}
+
+ input[type="submit"] {
+   background-color:#605f5e;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+   border-radius: 10px;
+   color:#FFFCF2;
+   font-size:17px;
+   padding:0.5em 1em;
+   width: 25%;
+   border: 0px;
+ }
+ input[type="submit"]:hover{
+   background-color:#488247;
+ }

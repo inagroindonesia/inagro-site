@@ -1,9 +1,10 @@
 ---
 date: '2017-05-08T15:42:59+07:00'
-Title: AgTech
+Title: Inagro Indonesia
 Draft: false
-img: "homepage2.jpg"
+weight: 10
+img: "homepage1.jpg"
 
 ---
 
-Nurturing Agriculture Startups
+### Changing the world through Education

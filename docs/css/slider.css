@@ -8,7 +8,7 @@
   font-size: 18px;
   background: #fff;
   /* Center slide text vertically */
-  
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -25,7 +25,7 @@
 
 /* Text Overlay */
 #lab_video_text_overlay h2 {
-  font-size:4em
+  font-size:3em
 }
 
 #lab_video_text_overlay .btn {
@@ -41,7 +41,7 @@
   position: absolute;
   color: #FFF;
   width: 100%;
-  top: 25%;
+  bottom: 18%;
 }
 
 #lab_video_text_overlay .container {
@@ -67,3 +67,6 @@
     font-size: .9em;
   }
 }
+
+.swiper-pagination { bottom: 20px;}
+.swiper-pagination-bullet { margin : 0.2em;}

@@ -12,30 +12,75 @@
     
     
     <item>
-      <title>Slide2</title>
+      <title>Inagro Indonesia</title>
       <link>https://inagroindonesia.github.io/inagro-site/slider/slider2/</link>
       <pubDate>Mon, 08 May 2017 15:42:59 +0700</pubDate>
       
       <guid>https://inagroindonesia.github.io/inagro-site/slider/slider2/</guid>
-      <description>This is the description two.</description>
+      <description> Changing the world through Education </description>
     </item>
     
     <item>
-      <title>Slide3</title>
-      <link>https://inagroindonesia.github.io/inagro-site/slider/slider3/</link>
+      <title>Inagro Indonesia</title>
+      <link>https://inagroindonesia.github.io/inagro-site/slider/slider1/</link>
       <pubDate>Mon, 08 May 2017 15:42:59 +0700</pubDate>
       
-      <guid>https://inagroindonesia.github.io/inagro-site/slider/slider3/</guid>
-      <description>This is the description three.</description>
+      <guid>https://inagroindonesia.github.io/inagro-site/slider/slider1/</guid>
+      <description> Changing the world through Education </description>
     </item>
     
     <item>
-      <title>Slide3</title>
+      <title>AgTech</title>
       <link>https://inagroindonesia.github.io/inagro-site/slider/slider4/</link>
       <pubDate>Mon, 08 May 2017 15:42:59 +0700</pubDate>
       
       <guid>https://inagroindonesia.github.io/inagro-site/slider/slider4/</guid>
-      <description>This is the description three.</description>
+      <description> Nurturing Agriculture Startups </description>
+    </item>
+    
+    <item>
+      <title>Next Up</title>
+      <link>https://inagroindonesia.github.io/inagro-site/news/nextup/</link>
+      <pubDate>Fri, 19 May 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/news/nextup/</guid>
+      <description>Next up Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut purus eu neque sagittis interdum eu et massa. Sed auctor dolor vel felis tristique, nec interdum sem tincidunt. Nulla vel mi risus. Nulla vitae ante sem. Curabitur eget leo in turpis sollicitudin varius. In tortor velit, dictum sit amet lorem quis, commodo porttitor velit. Aenean placerat nulla sed placerat condimentum. Vivamus est elit, consectetur eu mi et, semper interdum mauris.</description>
+    </item>
+    
+    <item>
+      <title>Research for the Futures</title>
+      <link>https://inagroindonesia.github.io/inagro-site/news/researchforthefuture/</link>
+      <pubDate>Fri, 19 May 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/news/researchforthefuture/</guid>
+      <description>Research for the Futures Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut purus eu neque sagittis interdum eu et massa. Sed auctor dolor vel felis tristique, nec interdum sem tincidunt. Nulla vel mi risus. Nulla vitae ante sem. Curabitur eget leo in turpis sollicitudin varius. In tortor velit, dictum sit amet lorem quis, commodo porttitor velit. Aenean placerat nulla sed placerat condimentum. Vivamus est elit, consectetur eu mi et, semper interdum mauris.</description>
+    </item>
+    
+    <item>
+      <title>Summer Programs</title>
+      <link>https://inagroindonesia.github.io/inagro-site/news/summerprograms/</link>
+      <pubDate>Fri, 19 May 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/news/summerprograms/</guid>
+      <description>Summer Programs Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut purus eu neque sagittis interdum eu et massa. Sed auctor dolor vel felis tristique, nec interdum sem tincidunt. Nulla vel mi risus. Nulla vitae ante sem. Curabitur eget leo in turpis sollicitudin varius. In tortor velit, dictum sit amet lorem quis, commodo porttitor velit. Aenean placerat nulla sed placerat condimentum. Vivamus est elit, consectetur eu mi et, semper interdum mauris.</description>
+    </item>
+    
+    <item>
+      <title>Upcoming Events</title>
+      <link>https://inagroindonesia.github.io/inagro-site/news/upcomingevents/</link>
+      <pubDate>Fri, 19 May 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/news/upcomingevents/</guid>
+      <description>Upcoming Events s Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut purus eu neque sagittis interdum eu et massa. Sed auctor dolor vel felis tristique, nec interdum sem tincidunt. Nulla vel mi risus. Nulla vitae ante sem. Curabitur eget leo in turpis sollicitudin varius. In tortor velit, dictum sit amet lorem quis, commodo porttitor velit. Aenean placerat nulla sed placerat condimentum. Vivamus est elit, consectetur eu mi et, semper interdum mauris.</description>
+    </item>
+    
+    <item>
+      <title>Building Community</title>
+      <link>https://inagroindonesia.github.io/inagro-site/slider/slider3/</link>
+      <pubDate>Mon, 08 May 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/slider/slider3/</guid>
+      <description> Creating Opportunities for Team Growth </description>
     </item>
     
     <item>
@@ -109,15 +154,6 @@ Tissue culture is a technique of providing plants seeds in bulk and sustainable 
       
       <guid>https://inagroindonesia.github.io/inagro-site/about/about/</guid>
       <description>PT. Intidaya Agrolestari (INAGRO) is a company engaged in Agroeduwisata where it’s activities are focused on providing educational facilities and agriculture, animal husbandry, and fishery tours that are fun and educational. The company stands on of 76 ha located in Cibeuteung Udik Village, Ciseeng District, Bogor Regency. There are various excellent facilities, such as Tissue Culture Laboratory, Mikoriza Laboratory, Green House, compost management, fish cultivation (Catfish, Patin, and Zidat), Buffalo and cow farm, fruit addition, INAGRO also provides facilities such as auditorium hall and hall pendopo, training center, meeting room, sports facilities, fishing place, lake, training camp, aviary, sawah outbond area.</description>
-    </item>
-    
-    <item>
-      <title>Slide1</title>
-      <link>https://inagroindonesia.github.io/inagro-site/slider/slider1/</link>
-      <pubDate>Fri, 28 Apr 2017 15:42:59 +0700</pubDate>
-      
-      <guid>https://inagroindonesia.github.io/inagro-site/slider/slider1/</guid>
-      <description>This is the description.</description>
     </item>
     
     <item>

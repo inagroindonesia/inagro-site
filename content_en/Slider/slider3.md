@@ -6,4 +6,4 @@ img: "homepage2.jpg"
 
 ---
 
-Creating Opportunities for Team Growth
+### Creating Opportunities for Team Growth

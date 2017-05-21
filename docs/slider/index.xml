@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sliders on Inagro Indonesia</title>
+    <link>https://inagroindonesia.github.io/inagro-site/slider/</link>
+    <description>Recent content in Sliders on Inagro Indonesia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 May 2017 15:42:59 +0700</lastBuildDate>
+    
+	<atom:link href="https://inagroindonesia.github.io/inagro-site/slider/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building Community</title>
+      <link>https://inagroindonesia.github.io/inagro-site/slider/slider3/</link>
+      <pubDate>Mon, 08 May 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/slider/slider3/</guid>
+      <description> Creating Opportunities for Team Growth </description>
+    </item>
+    
+    <item>
+      <title>Inagro Indonesia</title>
+      <link>https://inagroindonesia.github.io/inagro-site/slider/slider2/</link>
+      <pubDate>Mon, 08 May 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/slider/slider2/</guid>
+      <description> Changing the world through Education </description>
+    </item>
+    
+    <item>
+      <title>Inagro Indonesia</title>
+      <link>https://inagroindonesia.github.io/inagro-site/slider/slider1/</link>
+      <pubDate>Mon, 08 May 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/slider/slider1/</guid>
+      <description> Changing the world through Education </description>
+    </item>
+    
+    <item>
+      <title>AgTech</title>
+      <link>https://inagroindonesia.github.io/inagro-site/slider/slider4/</link>
+      <pubDate>Mon, 08 May 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/slider/slider4/</guid>
+      <description> Nurturing Agriculture Startups </description>
+    </item>
+    
+  </channel>
+</rss>

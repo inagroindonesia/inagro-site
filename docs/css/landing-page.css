@@ -1,337 +1,3 @@
-<<<<<<< HEAD
-/*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-body,
-html {
-    width: 100%;
-    height: 100%;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Slabo 27px',Helvetica,Arial,sans-serif;
-    font-weight: 600;
-    letter-spacing: 0.09em;
-}
-body {font-weight: 400;}
-/* h1 {color:#A1CF6B;} 488247 */
-a {color:#F2C14E;}
-a:hover {color:#488247;}
-.lead {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-body p {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 2;
-  font-size: 1em;
-  letter-spacing: 0.6px;
-}
-
-.intro-header {
-    padding-top: 80px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-    background: url(../img/homepage2.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.intro-message {
-    position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
-}
-
-.intro-message > h1 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
-    color: #ffffff;
-}
-
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
-
-@media(max-width:767px) {
-    .intro-message {
-        padding-bottom: 15%;
-    }
-
-    .intro-message > h1 {
-        font-size: 3em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
-}
-
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
-.content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
-.content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-}
-
-.section-heading {
-    margin-bottom: 30px;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
-.contact {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/contact-bg.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.contact h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
-}
-
-.contact ul {
-    margin-bottom: 0;
-}
-
-.contact-social-buttons {
-    float: left;
-    margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.contact-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    .contact h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    ul.contact-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.contact-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-}
-
-footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
-p.copyright {
-    margin: 15px 0 0;
-}
-
-/* Homepage three column facility highlight */
-.highlight {
-  display: block;
-  overflow-x: hidden;
-  padding-right:0px;
-  margin-right: 15px;
-}
-@media (min-width: 992px) {
-  .highlight {width:31.3%; }
-}
-.highlight .hoverText {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  padding: 1em;
-  width: 100%;
-  text-align: center;
-  background-color: rgba(161,207,107,0.75);
-  overflow: hidden;
-  max-height: 30%;
-  transition: max-height 0.6s ease;
-}
-@media (max-width:768px) {
-  .highlight .hoverText {max-height: 20%;}
-  .highlight {margin: 0 2.5em 2em 1.5em;}
-}
-.hoverText h2, .hoverText p {
-  margin-bottom: 1.4em;
-}
-.hoverText:hover {
-  max-height: 100%;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition:    all 0.6s ease;
-  -o-transition:      all 0.6s ease;
-}
-.hlBtn {
-	background-color:#605f5e;
-	-moz-border-radius:11px;
-	-webkit-border-radius:11px;
-	border-radius:11px;
-	display:inline-block;
-	cursor:pointer;
-	color:#FFFCF2;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-}
-.hlBtn:hover {
-	background-color:#A1CF6B;
-}
-.hlBtn:active {
-	position:relative;
-	top:1px;
-}
-.hlBtn a, .hlBtn a:hover {
-  text-decoration: none;
-  color: #FFFCF2;}
-
-.highlight > img {
-  width:100%;
-}
-
-section#about {
-      border-bottom: 1px solid #e7e7e7;
-}
-
-/* section:not(#intro) {padding: 2em 0;} */
-
-#agtech {
-  text-align: center;
-  background: url(../img/tissueculture.png) no-repeat left top;
-  background-size: 50%;
-  background-color: #A1CF6B;
-  padding-right:2em;
-  min-height: 450px;
-  color: #FFF;
-}
-/* Font spacing fix */
-h4 {font-variant-ligatures: none;}
-
-/* footer style */
-.address {
-  font-weight: 600;
-  font-size: 15px;
-}
-
-.lightgreen {color:#A1CF6B;}
-
-#facility {margin-bottom: 5%;}
-
-/* nav text fix */
-ul.navbar-nav {
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-}
-
-/* carousel */
-.media-carousel
-{
-  margin-bottom: 0;
-  /*padding: 0 40px 30px 40px;
-  margin-top: 30px;*/
-}
-/* Previous button  */
-.media-carousel .carousel-control.left
-{
-  left: -30px;
-  background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
-  border-radius: 23px 23px 23px 23px;
-  height: 40px;
-  width : 40px;
-  margin-top: 30px
-}
-/* Next button  */
-.media-carousel .carousel-control.right
-{
-  right: -30px !important;
-  background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
-  border-radius: 23px 23px 23px 23px;
-  height: 40px;
-  width : 40px;
-  margin-top: 30px
-}
-/* Changes the position of the indicators */
-.media-carousel .carousel-indicators
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-/* Changes the colour of the indicators */
-.media-carousel .carousel-indicators li
-{
-  background: #c0c0c0;
-}
-.media-carousel .carousel-indicators .active
-{
-  background: #333333;
-}
-/*.media-carousel img
-{
-  width: 500px;
-  height: 500px
-}*/
-/* End carousel */
-
-/* Nav bar inner */
-.navbar-subpage {background-color: rgba(41,41,41,1);}
-.subpage {margin-top:120px;}
 =======
 /*!
  * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
@@ -458,9 +124,10 @@ body p {
 
 .contact {
     padding: 100px 0;
-    color: #f8f8f8;
+    /* color: #f8f8f8;
     background: url(../img/contact-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #f8f8f8;
 }
 
 .contact h2 {
@@ -473,14 +140,9 @@ body p {
     margin-bottom: 0;
 }
 
-.contact-social-buttons {
-    float: left;
-    margin-top: 0;
-}
-
 @media(max-width:1199px) {
     ul.contact-social-buttons {
-        float: left;
+      /*  float: left; */
         margin-top: 15px;
     }
 }
@@ -549,18 +211,19 @@ p.copyright {
 }
 .hlBtn {
 	background-color:#605f5e;
-	-moz-border-radius:11px;
-	-webkit-border-radius:11px;
-	border-radius:11px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
 	display:inline-block;
 	cursor:pointer;
 	color:#FFFCF2;
 	font-size:17px;
-	padding:16px 31px;
+	padding:0.8em 2em;
 	text-decoration:none;
 }
 .hlBtn:hover {
-	background-color:#A1CF6B;
+	background-color:#488247;
+  color: #fffcf2;
 }
 .hlBtn:active {
 	position:relative;
@@ -568,7 +231,8 @@ p.copyright {
 }
 .hlBtn a, .hlBtn a:hover {
   text-decoration: none;
-  color: #FFFCF2;}
+  color: #FFFCF2;
+}
 
 .highlight > img {
   width:100%;
@@ -596,6 +260,11 @@ h4 {font-variant-ligatures: none;}
 .address {
   font-weight: 600;
   font-size: 15px;
+}
+
+footer {
+    background: url(../img/footerbg.png) no-repeat right top;
+    background-size: 25%;
 }
 
 .lightgreen {color:#A1CF6B;}
@@ -666,4 +335,28 @@ ul.navbar-nav {
 /* Nav bar inner */
 .navbar-subpage {background-color: rgba(41,41,41,1);}
 .subpage {margin-top:120px;}
->>>>>>> 5d08cd41aa2bc4c1f672c5517fad8427052dd457
+
+/* Input Field Design */
+input, button, select, textarea {
+border-radius: 10px;
+border-style: solid;
+border-color: #e7e7e7;
+width: 80%;
+padding: 0.5em;
+margin: 0.5em 0;
+}
+
+ input[type="submit"] {
+   background-color:#605f5e;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+   border-radius: 10px;
+   color:#FFFCF2;
+   font-size:17px;
+   padding:0.5em 1em;
+   width: 25%;
+   border: 0px;
+ }
+ input[type="submit"]:hover{
+   background-color:#488247;
+ }

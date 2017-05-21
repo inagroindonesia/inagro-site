@@ -7,4 +7,4 @@ weight: 98
 
 ---
 
-### Changing the world through Education
+### Changing the world through Education.

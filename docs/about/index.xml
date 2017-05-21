@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Inagro Indonesia</title>
+    <link>https://inagroindonesia.github.io/inagro-site/about/</link>
+    <description>Recent content in Abouts on Inagro Indonesia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Apr 2017 15:42:59 +0700</lastBuildDate>
+    
+	<atom:link href="https://inagroindonesia.github.io/inagro-site/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://inagroindonesia.github.io/inagro-site/about/about/</link>
+      <pubDate>Fri, 28 Apr 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/about/about/</guid>
+      <description>PT. Intidaya Agrolestari (INAGRO) is a company engaged in Agroeduwisata where it’s activities are focused on providing educational facilities and agriculture, animal husbandry, and fishery tours that are fun and educational. The company stands on of 76 ha located in Cibeuteung Udik Village, Ciseeng District, Bogor Regency. There are various excellent facilities, such as Tissue Culture Laboratory, Mikoriza Laboratory, Green House, compost management, fish cultivation (Catfish, Patin, and Zidat), Buffalo and cow farm, fruit addition, INAGRO also provides facilities such as auditorium hall and hall pendopo, training center, meeting room, sports facilities, fishing place, lake, training camp, aviary, sawah outbond area.</description>
+    </item>
+    
+  </channel>
+</rss>

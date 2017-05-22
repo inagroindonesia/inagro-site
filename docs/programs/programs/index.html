@@ -208,6 +208,28 @@
 	});
 </script>
 
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+
+
+$('#contactForm').submit(function(e){
+    e.preventDefault();
+    $.ajax({
+        url:'https://hooks.zapier.com/hooks/catch/2250565/9tdouz/',
+        type:'post',
+        data:$('#contactForm').serialize(),
+        success:function(){
+          
+          window.location = "../thankyou";
+        }
+    });
+});
+
+</script>
+
 </body>
 </html>
 

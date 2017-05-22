@@ -41,3 +41,25 @@
 			autoplayDisableOnInteraction: false
 	});
 </script>
+
+<!-- AJAX call for Contact Form -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+// POST form data to zapier on submit
+
+$('#contactForm').submit(function(e){
+    e.preventDefault();
+    $.ajax({
+        url:'https://hooks.zapier.com/hooks/catch/2250565/9tdouz/',
+        type:'post',
+        data:$('#contactForm').serialize(),
+        success:function(){
+          // Redirect to another success page
+          window.location = "../thankyou";
+        }
+    });
+});
+
+</script>

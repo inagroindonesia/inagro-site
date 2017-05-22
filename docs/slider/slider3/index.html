@@ -80,7 +80,11 @@
 
 <section id="intro">
   
+<<<<<<< HEAD
   	<div class="intro-header" style="background-image:url(img/homepage2.jpg); min-height:400px;" >
+=======
+  	<div class="intro-header" style="background-image:url(img/community.jpg); min-height:400px;" >
+>>>>>>> refs/remotes/origin/master
 
   	    <div class="container">
 
@@ -210,6 +214,31 @@
 	});
 </script>
 
+<<<<<<< HEAD
+=======
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+
+
+$('#contactForm').submit(function(e){
+    e.preventDefault();
+    $.ajax({
+        url:'https://hooks.zapier.com/hooks/catch/2250565/9tdouz/',
+        type:'post',
+        data:$('#contactForm').serialize(),
+        success:function(){
+          
+          window.location = "../thankyou";
+        }
+    });
+});
+
+</script>
+
+>>>>>>> refs/remotes/origin/master
 </body>
 </html>
 

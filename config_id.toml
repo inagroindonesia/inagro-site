@@ -3,7 +3,7 @@ languageCode = "id-IND"
 title = "Inagro Indonesia"
 canonifyUrls = "true"
 theme = "landing-page-hugo"
-publishDir = "docs"
+publishDir = "id"
 contentDir = "content_id"
 
 googleAnalytics = "UA-98287421-1"
@@ -20,12 +20,8 @@ googleAnalytics = "UA-98287421-1"
     locale = "id-IND"
     HomePage = "index.html"
     nextHomePage = "index_en.html"
-	slider1 = "img/homepage1.jpg"
-    slider2 = "img/homepage2.jpg"
-    slider3 = "img/homepage3.jpg"
-    slider4 = "img/homepage2.jpg"
-    
-    
+
+
     custom_css_slider = ["css/slider.css"]
 
 

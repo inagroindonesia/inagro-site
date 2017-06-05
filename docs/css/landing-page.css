@@ -360,3 +360,19 @@ margin: 0.5em 0;
  input[type="submit"]:hover{
    background-color:#488247;
  }
+
+/* Header Icon*/
+
+element.style {
+}
+landing-page.css:365
+.nav > li > a.langicon {
+    /* padding: 33px 5px 27px 5px; */
+}
+main.css:4113
+.navbar-default .navbar-nav > li > a {
+    color: #FFFCF2;
+}
+@media (min-width: 768px) {
+.nav > li > a.langicon {padding: 33px 5px 27px 5px;}
+}

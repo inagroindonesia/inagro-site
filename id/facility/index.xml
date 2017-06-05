@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Facilities on Inagro Indonesia</title>
+    <link>https://inagroindonesia.github.io/inagro-site/facility/</link>
+    <description>Recent content in Facilities on Inagro Indonesia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-IND</language>
+    <lastBuildDate>Mon, 01 May 2017 15:13:38 +0700</lastBuildDate>
+    
+	<atom:link href="https://inagroindonesia.github.io/inagro-site/facility/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>facility</title>
+      <link>https://inagroindonesia.github.io/inagro-site/facility/facility/</link>
+      <pubDate>Mon, 01 May 2017 15:13:38 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/facility/facility/</guid>
+      <description>Facility at Inagro</description>
+    </item>
+    
+    <item>
+      <title>Animals</title>
+      <link>https://inagroindonesia.github.io/inagro-site/facility/animals/</link>
+      <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/facility/animals/</guid>
+      <description>Tedong Saleko Di Tana Toraja, Sulawesi Selatan, terdapat kerbau - kerbau yang istimewa, jenis kerbau yang satu ini disebut Tedong Saleko. Istimewanya, dalam lingkungan budaya Tana Toraja Saleko ini adalah Tedong dengan Kasta tertinggi dengan keberadaannya yang sangatlah langka dan memiliki ciri-ciri fisik yang berbeda dari kerbau kebanyakan seperti tanduk kuning, lingkaran putih di bola mata, serta kulit berwarna hitam dan putih dalam kombinasi-kombinasi tertentu. Tidak tanggung-tanggung, karena keistimewaannya, harga kerbau ini bisa mencapai 1 miliar rupiah, Wow!</description>
+    </item>
+    
+    <item>
+      <title>Aquaculture</title>
+      <link>https://inagroindonesia.github.io/inagro-site/facility/aquaculture/</link>
+      <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/facility/aquaculture/</guid>
+      <description>We Have All of these amazing programs.</description>
+    </item>
+    
+    <item>
+      <title>Fruit Plantation</title>
+      <link>https://inagroindonesia.github.io/inagro-site/facility/fruitplantation/</link>
+      <pubDate>Fri, 28 Apr 2017 17:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/facility/fruitplantation/</guid>
+      <description>Plantation Tanaman perkebunan yang dibudidayakan di PT. Inagro adalah tanaman buah-buahan tropis tahunan, seperti durian, rambutan, duku, nangka, alpukat, kelengkeng dan manggis. Tanaman tersebut berbuah setahun sekali dari bulan desember sampai februari, kecuali sawo dan sirsak dapat berbuah beberapa kali dalam setahun. Selain itu terdapat tanaman semusim seperti ubi jalar, singkong, nanas dan tanaman 2 musim atau lebih seperti pepaya dan pisang. Adapun tanaman buah koleksi yang sudah jarang ditemui diantaranya adalah matoa, menteng, gandaria dan kepel.</description>
+    </item>
+    
+  </channel>
+</rss>

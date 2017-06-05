@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Inagro on Inagro Indonesia</title>
+    <link>https://inagroindonesia.github.io/inagro-site/about/</link>
+    <description>Recent content in About Inagro on Inagro Indonesia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-IND</language>
+    <lastBuildDate>Mon, 01 May 2017 15:42:59 +0700</lastBuildDate>
+    
+	<atom:link href="https://inagroindonesia.github.io/inagro-site/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://inagroindonesia.github.io/inagro-site/about/about/</link>
+      <pubDate>Fri, 28 Apr 2017 15:42:59 +0700</pubDate>
+      
+      <guid>https://inagroindonesia.github.io/inagro-site/about/about/</guid>
+      <description>PT Intidaya Agrolestari (INAGRO) merupakan perusahaan yang bergerak dalam bidang Agroeduwisat dimana ragam kegiatannya difokuskan pada penyediaan sarana edukasi dan wisata pertanian, peternakan, dan perikanan yang menyenangkan dan mendidik. Perusahaan ini berdiri diatas lahan seluas 76 ha yang terletak di Desa Cibeuteung Udik, Kecamatan Ciseeng Kabupaten Bogor. Terdapat berbagai fasilitas unggulan, seperti Laboratorium Kultur Jaringan, Laboratorium Mikoriza, Green House/Rumah Kaca, Pengelolaan Kompos, Budidaya ikan (Lele, Patin, dan Zidat), Peternakan Kerbau dan Sapi, Perkebunan Buah - buahan serta tanaman tahunan lainnya.</description>
+    </item>
+    
+  </channel>
+</rss>
